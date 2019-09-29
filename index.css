@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 99%;
+    background-color: #24252A;  /*#24252A*/
+}
+
+.nav_links{
+    padding: 10px;
+}
+
+.nav_links li {
+    width: 33%;
+    list-style: none;
+    display: inline-block;  
+    text-align: center;
+}
+
+a {
+    font-size: 24px;
+    text-decoration-line: none;
+    color: #fff
+}
+
+li a:hover {
+    transition: 0.5s;
+    color: #FF8F00;
+}
+
+p {
+    position: relative;
+    top: 50px;
+}
+
+/* Scrpit di Swup per le animazioni */
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
