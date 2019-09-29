@@ -3,25 +3,28 @@
     <head>
         <title> My Site </title>
         <link rel="stylesheet" href="index.css">
-        <script src="index.js"></script>
     </head>
     <body>
-        <main id="swup" class="transition-fade">
-        <header>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="index.html"> Home </a></li>
-                    <li><a href="projects.html"> Progetti </a></li>
-                    <li><a href="contacts.html"> Contatti </a></li>
-                </ul>
-            </nav>
-        </header><br>
+        <div class="container">
+            <header>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="projects.html"> Progetti </a></li>
+                        <li><a href="contacts.html"> Contatti </a></li>
+                    </ul>
+                </nav>
+            </header><br>
+        </div>
 
-        <p> Questo &egrave; un testo di prova, nel quale io cerco di spiegare me stesso all'interno della home.<br>  </p>
+        <main id="swup" class="transition-fade"></main>
+            <p> Questo &egrave; un testo di prova, nel quale io cerco di spiegare me stesso all'interno della home.<br>  </p>
         </main>
 
-        <script type="text/javascript">
-    
+        <script src="/node_modules/swup/dist/swup.min.js"></script>
+
+        <script>
+            const swup = new Swup();
         </script>
           
     </body>
