@@ -38,6 +38,8 @@ p {
     top: 50px;
 }
 
+/* Swup transition */
+
 .transition-fade {
     transition: 0.4s;
     opacity: 1;
