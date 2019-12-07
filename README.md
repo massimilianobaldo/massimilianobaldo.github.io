@@ -2,7 +2,7 @@
 
 This is the hosting of my personal web site.
 
-Is a personalspace where I can enjoy myself in web developing and talknig about me
+It's a personal space where I can enjoy myself in web developing and talknig about me
 
 # TODO
 1. Modifing the projects.html 
