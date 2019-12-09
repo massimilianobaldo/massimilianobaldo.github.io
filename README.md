@@ -5,8 +5,10 @@ This is the hosting of my personal web site.
 It's a personal space where I can enjoy myself in web developing and talknig about me
 
 # TODO
-1. Modifing the projects.html 
+- [] Modifing the projects.html.
 
-2. Create the contacts section 
+- [x] Create the contacts section.
 
-3. Modifing the hidden menu with the display none. 
+- [] Modify the hidden menu with the display none. 
+
+- [] Modify the row icons of the constatcs section. 
