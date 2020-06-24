@@ -40,8 +40,31 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin: 5px;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
 }
-    
+ 
+.line:nth-child(1).close {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.line:nth-child(2).close {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.line:nth-child(3).close {
+  /*position: absolute;*/
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-45deg);
+  top: 53%;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
   
 .hamburger {
     position: absolute;
