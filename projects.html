@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Progetti </title>
-        <link rel="stylesheet" href="index.css"> 
-        <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="/index.html"> Home </a></li>
-                    <li><a href="/projects.html"> Progetti </a></li>
-                    <li><a href="/contacts.html"> Contatti </a></li>
-                </ul>
-            </nav>
-        </header> <br>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="projects.css" />
+    <title>Projects</title>
+  </head>
+  <body>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
 
-        <main id="swup" class="transition-fade">
-            <p> Questo &egrave; un testo di prova, qui dentro voglio mettere i link riferiti ai miei git.<br> </p>
-        </main>
-
-        <script>
-           const swup = new Swup();
-        </script>
-
-    </body>
+    <h2> Projects </h2>
+    <div class="container">
+      <p>In questa sezione, ho voluto sperimentare le nozioni studiate durante il mio corso di studi a Udine.
+        In particolare, sfruttando le API del sito di Github son riuscito a reperire tutti i progetti creati.
+      </p>
+      <div id="list-cards"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="cards.js"></script>
+  </body>
 </html>

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+/*
+* main colors:
+* #440f79, #ff209a, #6d1da2, #5f1ab3
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: darkslategray;
+}
+
+h2 {
+    position: absolute;
+    top: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    color: floralwhite;
+    font-size: calc(1.5em + 1vh);   
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 15vh;
+    width: 100%;
+    padding: 0 15px 15px 15px;
+    text-align: justify;
+}
+
+p {
+    position: relative;
+    font-size: 2vh;
+    color: floralwhite;
+    text-align: center;
+}
+  
+/*All stuff for the menu*/
+
+.line {
+    position: relative;
+    height: 2px;
+    width: 30px;
+    background: black;
+    top: 60%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 5px;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+}
+ 
+.line:nth-child(1).close {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.line:nth-child(2).close {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.line:nth-child(3).close {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-45deg);
+  top: 53%;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+  
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    top: -100px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 0 0 #fafafa, 0 0 0 0 #fafafa;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.hamburger.open {
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    border-radius: 0;
+    box-shadow: 0 0 0 100vw #fafafa, 0 0 0 100vh #fafafa;
+}
+  
+.nav-links {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    touch-action: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.nav-links.open {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+    pointer-events: all;
+}
+    
+    
+.nav-links li a {
+    color: #000;
+    font-size: 1.5em;
+    /*margin-bottom: 1em;*/
+    text-decoration: none;
+    text-align : center;
+    display: block;
+}
+
+.nav-links li a:hover {
+    color: #ffad42;
+}
+
+
+/*Style for the cards*/
+
+#list-cards {
+    position: relative;
+    top: 3vh;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    padding: 15px 0 15px 0;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    
+    border-radius: 25px;
+}
+
+hr {
+    margin: 0 20px 0 20px;
+}
+
+.description {
+    font-size: 2vh;
+    position: relative;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.links {
+    position: relative;
+    color: #000;
+    font-size: 2.8vh;
+    text-decoration: none;
+    display: block;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links:hover {
+    color: #ffad42;
+}
