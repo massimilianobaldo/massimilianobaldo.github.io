@@ -9,7 +9,7 @@ xmlhttp.onreadystatechange = function() {
     }
 };
   
-xmlhttp.open("GET", "http://api.github.com/users/massimilianobaldo/repos", false);
+xmlhttp.open("GET", "https://api.github.com/users/massimilianobaldo/repos", false);
 xmlhttp.send();
 
 
