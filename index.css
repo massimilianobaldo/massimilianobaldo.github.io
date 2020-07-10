@@ -42,11 +42,13 @@
     margin: 5px;
     -webkit-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
 }
  
 .line:nth-child(1).close {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .line:nth-child(2).close {
@@ -55,6 +57,7 @@
   opacity: 0;
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .line:nth-child(3).close {
@@ -64,6 +67,7 @@
   top: 53%;
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
 }
   
 .hamburger {
@@ -79,6 +83,7 @@
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
     box-shadow: 0 0 0 0 #fafafa, 0 0 0 0 #fafafa;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .hamburger.open {
@@ -123,6 +128,7 @@
     text-decoration: none;
     text-align : center;
     display: block;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav-links li a:hover {
