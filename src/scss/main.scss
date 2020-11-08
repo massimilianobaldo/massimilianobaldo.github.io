@@ -24,7 +24,7 @@ main {
     transform: translate(-50%, -50%);
 }
 
-section{
+section {
     h3 {
         font-family: $Rubik;
         font-size: max(min(1rem, 2vw), 50px);
@@ -33,8 +33,9 @@ section{
         border-bottom: 1px solid rgba(0, 0, 0, 0.25);
         margin-bottom: 10px;
     }
-  
+
     p {
+        font-family: $Rubik;
         font-size: min(max(1rem, 2vw), 24px);
         font-weight: 400;
     }
@@ -110,7 +111,6 @@ section#home {
     }
 }
 
-
 h1, h2 {
   margin: 0;
   padding: 0;
@@ -119,37 +119,6 @@ h1, h2 {
 a {
   text-decoration: none;
 }
-
-header {
-  padding: 3em 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-
-section {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-section h3 {
-  font-family: $Rubik;
-  font-size: 1.25em;
-  font-weight: 600;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  margin-bottom: 10px;
-}
-
-#bio {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-
 
 #projects {
   display: grid;
@@ -178,14 +147,14 @@ section h3 {
         text-align: center;
     }
 
-    .project-card a {
+    a {
         color: #000;
     }
 
-    .project-card a:hover {
+    a:hover {
         color: #ffad42;
     }
-    .project-card p {
+    p {
         margin: 0.5em 0.5em 1em 0.7em;
         text-align: center;
     }
