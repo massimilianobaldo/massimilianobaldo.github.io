@@ -1,5 +1,6 @@
 const swup = new Swup({
-  cache: true
+  cache: true,
+  animateHistoryBrowsing: true
 });
 
 // particlesJS.load(@dom-id, @path-json, @callback (optional));
