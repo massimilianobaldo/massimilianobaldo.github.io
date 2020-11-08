@@ -33,7 +33,7 @@ section p {
   font-weight: 400;
 }
 
-section#home {
+section#home-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +43,7 @@ section#home {
   font-weight: 500;
 }
 
-section#home img {
+section#home-section img {
   box-sizing: border-box;
   width: 7em;
   height: 7em;
@@ -51,44 +51,44 @@ section#home img {
   border-radius: 50%;
   margin-right: 1em;
 }
-section#home h1 {
+section#home-section h1 {
   font-family: "Rubik", sans-serif;
   font-size: 1.953em;
   font-weight: 800;
   text-align: center;
   margin-top: 0.5em;
 }
-section#home nav {
+section#home-section nav {
   flex-grow: 4;
   width: 100%;
 }
-section#home .nav-links {
+section#home-section .nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 0.5em;
   background-color: transparent;
 }
-section#home .nav-links li {
+section#home-section .nav-links li {
   padding: 7px 7px;
   margin: 2vh 2% 2vh 0;
   list-style: none;
   text-align: center;
   text-decoration: none;
 }
-section#home .nav-links li li:hover {
+section#home-section .nav-links li li:hover {
   border-radius: 25px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
   background-color: #fff;
 }
-section#home .nav-links li a {
+section#home-section .nav-links li a {
   font-family: "Rubik", sans-serif;
   font-size: min(max(1rem, 4vw), 22px);
   font-weight: 400;
   text-align: center;
   color: black;
 }
-section#home .nav-links li a:hover {
+section#home-section .nav-links li a:hover {
   color: #ffad42;
 }
 
@@ -143,6 +143,7 @@ a {
 }
 .project-card .project-language {
   font-family: "Rubik", sans-serif;
+  font-size: min(max(1rem, 2vw), 18px);
   font-weight: 300;
 }
 
@@ -158,20 +159,20 @@ a {
   align-items: center;
   padding: 7px 7px;
 }
-.contacts .contacts div:hover {
+.contacts div:hover {
   border-radius: 25px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
   background-color: #fff;
 }
-.contacts .contacts img {
+.contacts img {
   height: 6vh;
   width: 6vw;
 }
-.contacts .contacts p {
+.contacts p {
   margin-top: 5px;
   font-weight: 400;
 }
-.contacts .contacts a:hover {
+.contacts a:hover {
   color: #ffad42;
 }
 
@@ -187,29 +188,14 @@ html.is-animating .transition-fade {
 
 /* MEDIA QUERY */
 @media (max-width: 900px) {
-  header {
-    padding-top: 3em;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  nav {
-    width: 100%;
-  }
-
-  .nav-links {
-    justify-content: center;
-    align-items: center;
-  }
-
   #projects {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 779px) {
-  header img {
-    margin-right: unset;
+  .projects-main {
+    height: 100vh;
+    margin-top: 10px;
   }
 
   #projects {
