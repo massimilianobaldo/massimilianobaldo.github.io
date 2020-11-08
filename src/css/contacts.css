@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#particles-js {
+  height: 100vh;
+}
+
+main {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  font-family: "Rubik", sans-serif;
+  font-size: min(max(1rem, 2vw), 18px);
+  font-weight: 500;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: max(min(1rem, 2vw), 50px);
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  padding: 7px 7px;
+}
+
+.contacts div:hover {
+  border-radius: 25px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.contacts img {
+  height: 8vh;
+  width: 8vw;
+}
+
+.contacts p {
+  margin-top: 5px;
+  font-weight: 400;
+}
+.contacts a:hover {
+  color: #ffad42;
+}
+
+
+@media (max-width: 779px) {
+
+  .contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

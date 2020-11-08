@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="index.css" />
-    <title>My Site</title>
-  </head>
-  <body>
-      <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contacts.html">Contact</a></li>
-        </ul>
-
-    <h1> Hello World! </h1>
-
-    <script src="app.js"></script>
-  </body>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content="Web site created using create-react-app">
+        <title>Massimiliano Baldo</title>
+        <link href="./src/css/home.css" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <main id="swup" class="transition-fade">
+        <section id="home">
+            <img id="avatar" alt="profile" src="./src/images/profile.png">
+            <div class="title">
+                <h1 id="name">Massimiliano Baldo</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="/projects.html" id="projects-button">Projects</a></li>
+                    <li><a href="/contacts.html">Contacts</a></li>
+                </ul>
+             </nav>
+        </section>
+    </main>
+</body>
+<script src="/node_modules/particles.js/particles.js"></script>
+<script src="/node_modules/swup/dist/swup.min.js"></script>
+<script src="/src/js/app.js"></script>
 </html>
