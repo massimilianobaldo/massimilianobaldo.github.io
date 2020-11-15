@@ -64,7 +64,6 @@ section#home-section {
         height: 7em;
         box-shadow: 0 4px 4px rgba(48, 43, 43, 0.25);
         border-radius: 50%;
-        margin-right: 1em;
     }
           
     h1 {
@@ -72,7 +71,7 @@ section#home-section {
         font-size: 1.953em;
         font-weight: 800;
         text-align: center;
-        margin-top: 0.5em;
+        margin-top: 1vh;
     }
           
     nav {
@@ -84,13 +83,12 @@ section#home-section {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0.5em;
         background-color: transparent;
     }
           
     .nav-links li {
         padding: 7px 7px;
-        margin: 2vh 2% 2vh 0;
+        margin: 1vh 2%;
         list-style: none;
         text-align: center;
         text-decoration: none;
@@ -123,8 +121,15 @@ h1, h2 {
 }
 
 a {
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
+    & {
+        text-decoration: underline;
+        -webkit-tap-highlight-color: transparent;
+        color: black;
+    }
+
+    &:hover {
+        color: #ffad42;
+    }
 }
 
 #projects {
@@ -217,7 +222,7 @@ a {
 
 /* Button */
 #button-home {
-    position: fixed;
+    position: absolute;
     z-index: 2;
     top: 90%;
     left: 95%;
