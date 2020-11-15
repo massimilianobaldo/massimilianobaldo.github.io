@@ -1,14 +1,17 @@
-# MaxBaldo99.github.io
+# Development
+So in this branch I'm gonna working all the stuff discovered and studied in my University.  
+The scope is to have a final version which is like a portfolio about me.
 
-This is the hosting of my personal web site.
+In this specific case, I use Sass, Swup.js and the Particels.js
 
-It's a personal space where I can enjoy myself in web developing and talknig about me
+# Todo
+- [x] Create the About Me section.
 
-# TODO
-- [ ] Modifing the projects.html.
+- [ ] Make the button fixed (not scrollable) to go home.
 
-- [x] Create the contacts section.
+- [x] Add for alle the section a specific id.
 
-- [ ] Modify the hidden menu with the display none. 
+- [ ] Use Sass to create a signle css file.
 
-- [ ] Modify the row icons of the constatcs section. 
+- [ ] Try to understand Gia.js.
+ 
