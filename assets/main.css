@@ -35,6 +35,9 @@ section p {
 section p#bio {
   text-align: center;
 }
+section p#bio a {
+  text-decoration: underline;
+}
 
 section#home-section {
   display: flex;
@@ -99,7 +102,7 @@ h1, h2 {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   color: black;
 }
