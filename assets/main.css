@@ -32,6 +32,9 @@ section p {
   font-size: min(max(1rem, 2vw), 24px);
   font-weight: 400;
 }
+section p#bio {
+  text-align: center;
+}
 
 section#home-section {
   display: flex;
@@ -99,6 +102,7 @@ h1, h2 {
 
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #projects {
