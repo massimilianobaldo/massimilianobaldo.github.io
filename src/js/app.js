@@ -32,5 +32,7 @@ function clickOnLink () {
   }
 };
 
+clickOnLink();
+
 // Listener for re-load the repos js
 swup.on('contentReplaced', clickOnLink);
