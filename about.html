@@ -1,62 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Descripiton about myself">
+    <title>About Me</title>
+    <link href="/assets/main.css" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <h3>About me</h3>
-        <p id="bio">
-            Internet of Things student at the University of Udine.
-        </p>
-    </section>
-    <section>
-        <h3>Projects</h3>
-        <p id="bio">
-            This is a section where I link all my projects hosted in the Github platform. As you can see, all the 
-            elements are genereate automaticaly using the API of Github, so every time I start a new project 
-            the site create a new card for him.
-        </p>
-        <div id="projects"></div>
-    </section>
-    <section>
-        <h3>Contacts</h3>
-        <div class="contacts">
-            <div>
-                <a href="https://www.facebook.com/massimiliano.baldo.3">
-                    <img src="./images/facebook.svg" />
-                </a>
-                <p>Facebook</p>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/massimiliano_baldo/">
-                    <img src="./images/instagram.svg" />
-                </a>
-                <p>Instagram</p>
-            </div>
-            <div>
-                <a href="https://github.com/massimilianobaldo">
-                    <img src="./images/github-circle.svg" />
-                </a>
-                <p>Github</p>
-            </div>
-            <div style="display: none;">
-                <a href="#">
-                    <img src="./images/linkedin.svg" />
-                </a>
-                <p>Linkedin</p>
-            </div>
-            <div>
-                <a href="https://soundcloud.com/itsnobel">
-                    <img src="./images/soundcloud.svg" />
-                </a>
-                <p>Soundcloud</p>
-            </div>
-        </div>
-    </section>
-</div>
-</div>
+    <div id="particles-js"></div>
+    <main id="swup" class="transition-fade">
+        <section>
+            <h3>About me</h3>
+            <p id="bio">
+                Hi there &#x1F44B;!<br/>
+                Welcome to my website.<br/>
+                My name is Massimiliano Baldo, I'm a student int The University Of Udine.<br/>
+                I'm attending the course of Internet Of Things, Big Data and Web Industry 4.0.<br/>
+                I enjoy writing code for all the stuff, in particular for the web development and the software development.<br/>
+                My hobbis are listing to muisc and try to procude it, under the nickname of Nobel.
+                <br/><br/>
+                If you are interested, you check my CV following <a href="#">this link</a>.
+            </p>
+        </section>
+    </main>
+    <script src="/node_modules/particles.js/particles.js"></script>
+    <script src="/node_modules/swup/dist/swup.min.js"></script>
+    <script src="/src/js/app.js"></script>
 </body>
 </html>
