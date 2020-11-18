@@ -15,3 +15,9 @@ In this specific case, I use Sass, Swup.js and the Particels.js
 
 - [ ] Try to understand Gia.js.
  
+- [ ] Remove highlight double-click
+
+- [ ] Make clickable card (not online title)
+
+- [ ] Implement over effects on Card (pos: rel; scale: 1.1 and z-index: 11)
+
